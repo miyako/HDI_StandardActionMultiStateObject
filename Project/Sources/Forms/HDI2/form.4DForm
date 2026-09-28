@@ -1,0 +1,252 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 720,
+	"windowMinHeight": 700,
+	"width": 1080,
+	"height": 700,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 1042,
+					"height": 660,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Tab Control",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Information",
+						"Styled Text",
+						"4D Write Pro"
+					],
+					"action": "GotoPage",
+					"method": "ObjectMethods/Tab Control.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"Tb_bold": {
+					"type": "checkbox",
+					"top": 84,
+					"left": 39,
+					"width": 33,
+					"height": 34,
+					"action": "fontBold",
+					"fontWeight": "bold",
+					"focusable": false,
+					"text": "B",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					]
+				},
+				"Tb_underline": {
+					"type": "checkbox",
+					"top": 84,
+					"left": 149,
+					"width": 33,
+					"height": 34,
+					"action": "fontUnderline",
+					"textDecoration": "underline",
+					"focusable": false,
+					"text": "U",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					]
+				},
+				"Tb_italic": {
+					"type": "checkbox",
+					"top": 84,
+					"left": 94,
+					"width": 33,
+					"height": 34,
+					"action": "fontItalic",
+					"fontStyle": "italic",
+					"focusable": false,
+					"text": "I",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					]
+				},
+				"Tb_fontsize": {
+					"type": "dropdown",
+					"top": 91,
+					"left": 289,
+					"width": 100,
+					"height": 21,
+					"focusable": false,
+					"action": "fontSize",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Tb_fontsizetxt": {
+					"type": "text",
+					"top": 94,
+					"left": 224,
+					"width": 62,
+					"height": 15,
+					"text": "Font size"
+				},
+				"Tb_bgcolortxr": {
+					"type": "text",
+					"top": 94,
+					"left": 690,
+					"width": 109,
+					"height": 15,
+					"text": "Background color"
+				},
+				"Tb_fontcolor": {
+					"type": "dropdown",
+					"top": 91,
+					"left": 473,
+					"width": 197,
+					"height": 21,
+					"dataSourceTypeHint": "integer",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/FontColor"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Tb_bgcolor": {
+					"type": "dropdown",
+					"top": 91,
+					"left": 803,
+					"width": 197,
+					"height": 21,
+					"dataSourceTypeHint": "integer",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/BgColor"
+					},
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Tb_fontcolortxr": {
+					"type": "text",
+					"top": 94,
+					"left": 400,
+					"width": 72,
+					"height": 15,
+					"text": "Font color"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text4": {
+					"type": "text",
+					"top": 69,
+					"left": 66,
+					"width": 940,
+					"height": 75,
+					"textAlign": "center",
+					"fontFamily": "Segoe UI",
+					"fontSize": 20,
+					"fontWeight": "bold",
+					"text": "Using standard actions with pop-up and checkboxes"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 195,
+					"left": 47,
+					"width": 960,
+					"height": 50,
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "Thanks to standard actions, a lot of actions can be performed without any programming."
+				},
+				"Text5": {
+					"type": "text",
+					"top": 266,
+					"left": 47,
+					"width": 960,
+					"height": 100,
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "From 4D v16 R4, Checkbox, 3D checkbox, Pop-up / Drop down list and Hierarchical pop-up menu support now standard actions. The benefit of using standard actions is that the checked / unchecked status or pop-up value is automatically set according to the current text selection. Simple!"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 376,
+					"left": 47,
+					"width": 960,
+					"height": 250,
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"text": "Using standard actions to create your custom toolbar, has two main benefits:\r\r   1- \tObject activation/deactivation is automatically handled by 4D depending on the context. Easy! For example, a checkbox for “bold” is automatically active if text is selected and deactivated when the selection is a picture.\r\r    2- \tThe current status (for checkboxes) or value (for pop-up menus) is automatically updated by 4D according to the current text selection. If the selected text is bold then the checkbox is set. It is unset for not bold or marked as tri-state if mixed. No coding needed!"
+				}
+			}
+		},
+		{
+			"objects": {
+				"stText": {
+					"type": "input",
+					"top": 145,
+					"left": 40,
+					"width": 1000,
+					"height": 464,
+					"sizingY": "grow",
+					"dataSource": "stText",
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				}
+			}
+		},
+		{
+			"objects": {
+				"WriteProArea1": {
+					"type": "write",
+					"top": 151,
+					"left": 39,
+					"width": 996,
+					"height": 521,
+					"dataSource": "WriteProArea",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dpi": 0,
+					"showSelection": true,
+					"showVerticalRuler": false,
+					"events": [
+						"onDataChange",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				}
+			}
+		}
+	]
+}
