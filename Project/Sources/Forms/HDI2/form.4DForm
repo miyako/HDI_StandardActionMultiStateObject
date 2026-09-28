@@ -33,9 +33,9 @@
 					"dataSource": "Tab Control",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Information",
-						"Styled Text",
-						"4D Write Pro"
+						":xliff:HDI2_TabInformation",
+						":xliff:HDI2_TabStyledText",
+						":xliff:HDI2_TabWritePro"
 					],
 					"action": "GotoPage",
 					"method": "ObjectMethods/Tab Control.4dm",
@@ -53,7 +53,7 @@
 					"action": "fontBold",
 					"fontWeight": "bold",
 					"focusable": false,
-					"text": "B",
+					"text": ":xliff:HDI2_TbBold",
 					"iconFrames": 4,
 					"style": "toolbar",
 					"events": [
@@ -69,7 +69,7 @@
 					"action": "fontUnderline",
 					"textDecoration": "underline",
 					"focusable": false,
-					"text": "U",
+					"text": ":xliff:HDI2_TbUnderline",
 					"iconFrames": 4,
 					"style": "toolbar",
 					"events": [
@@ -85,7 +85,7 @@
 					"action": "fontItalic",
 					"fontStyle": "italic",
 					"focusable": false,
-					"text": "I",
+					"text": ":xliff:HDI2_TbItalic",
 					"iconFrames": 4,
 					"style": "toolbar",
 					"events": [
@@ -110,7 +110,7 @@
 					"left": 224,
 					"width": 62,
 					"height": 15,
-					"text": "Font size"
+					"text": ":xliff:HDI2_TbFontSizeText"
 				},
 				"Tb_bgcolortxr": {
 					"type": "text",
@@ -118,7 +118,7 @@
 					"left": 690,
 					"width": 109,
 					"height": 15,
-					"text": "Background color"
+					"text": ":xliff:HDI2_TbBgColorText"
 				},
 				"Tb_fontcolor": {
 					"type": "dropdown",
@@ -154,7 +154,7 @@
 					"left": 400,
 					"width": 72,
 					"height": 15,
-					"text": "Font color"
+					"text": ":xliff:HDI2_TbFontColorText"
 				}
 			}
 		},
@@ -170,7 +170,7 @@
 					"fontFamily": "Segoe UI",
 					"fontSize": 20,
 					"fontWeight": "bold",
-					"text": "Using standard actions with pop-up and checkboxes"
+					"text": ":xliff:HDI2_Text4"
 				},
 				"Text6": {
 					"type": "text",
@@ -180,7 +180,7 @@
 					"height": 50,
 					"fontFamily": "Segoe UI",
 					"fontSize": 18,
-					"text": "Thanks to standard actions, a lot of actions can be performed without any programming."
+					"text": ":xliff:HDI2_Text6"
 				},
 				"Text5": {
 					"type": "text",
@@ -190,7 +190,7 @@
 					"height": 100,
 					"fontFamily": "Segoe UI",
 					"fontSize": 18,
-					"text": "From 4D v16 R4, Checkbox, 3D checkbox, Pop-up / Drop down list and Hierarchical pop-up menu support now standard actions. The benefit of using standard actions is that the checked / unchecked status or pop-up value is automatically set according to the current text selection. Simple!"
+					"text": ":xliff:HDI2_Text5"
 				},
 				"Text1": {
 					"type": "text",
@@ -200,7 +200,7 @@
 					"height": 250,
 					"fontFamily": "Segoe UI",
 					"fontSize": 18,
-					"text": "Using standard actions to create your custom toolbar, has two main benefits:\r\r   1- \tObject activation/deactivation is automatically handled by 4D depending on the context. Easy! For example, a checkbox for “bold” is automatically active if text is selected and deactivated when the selection is a picture.\r\r    2- \tThe current status (for checkboxes) or value (for pop-up menus) is automatically updated by 4D according to the current text selection. If the selected text is bold then the checkbox is set. It is unset for not bold or marked as tri-state if mixed. No coding needed!"
+					"text": ":xliff:HDI2_Text1"
 				}
 			}
 		},

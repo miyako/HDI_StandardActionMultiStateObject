@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_TabInformation" resname="HDI2_TabInformation">
+				<source>Information</source>
+				<target>Information</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TabStyledText" resname="HDI2_TabStyledText">
+				<source>Styled Text</source>
+				<target>Styled Text</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TabWritePro" resname="HDI2_TabWritePro">
+				<source>4D Write Pro</source>
+				<target>4D Write Pro</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TbBold" resname="HDI2_TbBold">
+				<source>B</source>
+				<target>B</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TbUnderline" resname="HDI2_TbUnderline">
+				<source>U</source>
+				<target>U</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TbItalic" resname="HDI2_TbItalic">
+				<source>I</source>
+				<target>I</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TbFontSizeText" resname="HDI2_TbFontSizeText">
+				<source>Font size</source>
+				<target>Font size</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TbBgColorText" resname="HDI2_TbBgColorText">
+				<source>Background color</source>
+				<target>Background color</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TbFontColorText" resname="HDI2_TbFontColorText">
+				<source>Font color</source>
+				<target>Font color</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Text4" resname="HDI2_Text4">
+				<source>Using standard actions with pop-up and checkboxes</source>
+				<target>Using standard actions with pop-up and checkboxes</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Text6" resname="HDI2_Text6">
+				<source>Thanks to standard actions, a lot of actions can be performed without any programming.</source>
+				<target>Thanks to standard actions, a lot of actions can be performed without any programming.</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Text5" resname="HDI2_Text5">
+				<source>From 4D v16 R4, Checkbox, 3D checkbox, Pop-up / Drop down list and Hierarchical pop-up menu support now standard actions. The benefit of using standard actions is that the checked / unchecked status or pop-up value is automatically set according to the current text selection. Simple!</source>
+				<target>From 4D v16 R4, Checkbox, 3D checkbox, Pop-up / Drop down list and Hierarchical pop-up menu support now standard actions. The benefit of using standard actions is that the checked / unchecked status or pop-up value is automatically set according to the current text selection. Simple!</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Text1" resname="HDI2_Text1">
+				<source>Using standard actions to create your custom toolbar, has two main benefits:&#13;&#13;   1- 	Object activation/deactivation is automatically handled by 4D depending on the context. Easy! For example, a checkbox for “bold” is automatically active if text is selected and deactivated when the selection is a picture.&#13;&#13;    2- 	The current status (for checkboxes) or value (for pop-up menus) is automatically updated by 4D according to the current text selection. If the selected text is bold then the checkbox is set. It is unset for not bold or marked as tri-state if mixed. No coding needed!</source>
+				<target>Using standard actions to create your custom toolbar, has two main benefits:&#13;&#13;   1- 	Object activation/deactivation is automatically handled by 4D depending on the context. Easy! For example, a checkbox for “bold” is automatically active if text is selected and deactivated when the selection is a picture.&#13;&#13;    2- 	The current status (for checkboxes) or value (for pop-up menus) is automatically updated by 4D according to the current text selection. If the selected text is bold then the checkbox is set. It is unset for not bold or marked as tri-state if mixed. No coding needed!</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
