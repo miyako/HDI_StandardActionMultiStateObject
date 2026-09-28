@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/TableForms/4" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="SAMPLE_Text5" resname="SAMPLE_Text5">
+				<source>SAMPLE</source>
+				<target>SAMPLE</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_BtnFirst" resname="SAMPLE_BtnFirst">
+				<source>First</source>
+				<target>First</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_BtnPrevious" resname="SAMPLE_BtnPrevious">
+				<source>Previous</source>
+				<target>Previous</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_BtnNext" resname="SAMPLE_BtnNext">
+				<source>Next</source>
+				<target>Next</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_BtnLast" resname="SAMPLE_BtnLast">
+				<source>Last</source>
+				<target>Last</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_BtnFirstPage" resname="SAMPLE_BtnFirstPage">
+				<source>First page</source>
+				<target>First page</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_BtnLastPage" resname="SAMPLE_BtnLastPage">
+				<source>Last page</source>
+				<target>Last page</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_BtnDelete" resname="SAMPLE_BtnDelete">
+				<source>Delete</source>
+				<target>Delete</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_BtnCancel" resname="SAMPLE_BtnCancel">
+				<source>Cancel</source>
+				<target>Cancel</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_BtnValidate" resname="SAMPLE_BtnValidate">
+				<source>Validate</source>
+				<target>Validate</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_TextID" resname="SAMPLE_TextID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_TextInfo" resname="SAMPLE_TextInfo">
+				<source>Info : </source>
+				<target>Info : </target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_FontBold" resname="SAMPLE_FontBold">
+				<source>fontBold</source>
+				<target>fontBold</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_FontUnderline" resname="SAMPLE_FontUnderline">
+				<source>fontUnderline</source>
+				<target>fontUnderline</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_FontItalic" resname="SAMPLE_FontItalic">
+				<source>fontItalic</source>
+				<target>fontItalic</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_FontLinethrough" resname="SAMPLE_FontLinethrough">
+				<source>fontLinethrough</source>
+				<target>fontLinethrough</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_Button5" resname="SAMPLE_Button5">
+				<source>font/showDialog</source>
+				<target>font/showDialog</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_Button36" resname="SAMPLE_Button36">
+				<source>fontSuperscript</source>
+				<target>fontSuperscript</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_Button37" resname="SAMPLE_Button37">
+				<source>fontSubscript</source>
+				<target>fontSubscript</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_Text9" resname="SAMPLE_Text9">
+				<source>Background color</source>
+				<target>Background color</target>
+			</trans-unit>
+			<trans-unit id="SAMPLE_Text10" resname="SAMPLE_Text10">
+				<source>Font color</source>
+				<target>Font color</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

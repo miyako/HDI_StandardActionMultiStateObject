@@ -1,0 +1,20 @@
+/* Cross-platform dark mode adaptation.
+   "automatic" adapts text/foreground (stroke) and background (fill) to the
+   current light/dark colour scheme without needing explicit media queries. */
+text, button, input, line {
+	stroke: automatic;
+}
+
+/* Branded warning colour on the HDI splash form: needs an explicit light/dark
+   pair rather than "automatic" since it is a specific semantic colour. */
+@media (prefers-color-scheme: light) {
+	.hdi-warning-text {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-warning-text {
+		stroke: #FF6A33;
+	}
+}
